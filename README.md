@@ -1,5 +1,7 @@
 # AngularBlog
 
+![image](https://github.com/kemps-medeiros/angular-blog/assets/75223837/1426738c-c610-40bf-8d24-e025978809d2)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 Before start development server, run `npm install` to install dependencies
