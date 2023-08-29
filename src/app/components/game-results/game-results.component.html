@@ -1,0 +1,17 @@
+<div class="container__game-results">
+  <div class="scoreboard">
+    <button (click)="prevSlide()"> << </button>
+    <div class="scoreboard__results" *ngFor="let result of gameResults; let i = index" [hidden]="i !== activeSlideIndex">
+      <div class="game-result">
+        <h3>RESULTADOS |</h3>
+        <h3>{{ result.homeTeam }}</h3>
+        <p>{{ result.score }}</p>
+        <h3>{{ result.awayTeam }}</h3>
+      </div>
+    </div>
+    <button (click)="nextSlide()"> >> </button>
+  </div>
+</div>
+
+
+
